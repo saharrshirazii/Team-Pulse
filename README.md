@@ -2,15 +2,15 @@
 TeamPulse is a React-based web application designed to help teams track their emotional well-being and energy levels. It provides a real-time dashboard for team leads to monitor the "pulse" of their group and a history log for personal reflection.
 
 ## Key Features
-“*” **Daily Check-in Form**: A user-friendly interface to log name, mood, energy level (1-5), and personal comments.
+- **Daily Check-in Form**: A user-friendly interface to log name, mood, energy level (1-5), and personal comments.
 
-“*” **Live Mood Barometer**: A dashboard that automatically calculates the total number of check-ins and the group's average energy level.
+- **Live Mood Barometer**: A dashboard that automatically calculates the total number of check-ins and the group's average energy level.
 
-“*” **Real-time Statistics**: Visual distribution of moods (Excellent, Good, Tired, etc.) updated instantly.
+- **Real-time Statistics**: Visual distribution of moods (Excellent, Good, Tired, etc.) updated instantly.
 
-“*” **Comprehensive History**: A detailed log of all entries with the ability to delete specific check-ins.
+- **Comprehensive History**: A detailed log of all entries with the ability to delete specific check-ins.
 
-“*” **Performance Optimized**: Utilizes useMemo for heavy calculations and a centralized useReducer for state management.
+- **Performance Optimized**: Utilizes useMemo for heavy calculations and a centralized useReducer for state management.
 
 ## Technical Implementation
 I utilized advanced React patterns to ensure the code is clean, scalable, and efficient:
