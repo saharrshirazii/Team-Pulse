@@ -69,3 +69,25 @@ input, select, textarea {
   border-radius: 12px;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
 }
+
+/* Styling the individual mood counts */
+.mood-bar-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.mood-bar-bg {
+  flex: 1;
+  height: 8px;
+  background: #e5e7eb;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.mood-bar-fill {
+  height: 100%;
+  background: var(--primary-color);
+  /* The width would be (count / total) * 100 % */
+}
