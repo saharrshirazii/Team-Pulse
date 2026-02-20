@@ -34,4 +34,5 @@ _useDayStats_: To handle complex math calculations.
 
 6. **TypeScript**: Implemented strict typing, including Interfaces, Enums, and Utility Types like Omit and Record.
 
-![Project Preview](./assets/project.png)
+<img width="1894" height="673" alt="project" src="https://github.com/user-attachments/assets/815845f8-6500-4830-9fc7-77ce8e173440" />
+
